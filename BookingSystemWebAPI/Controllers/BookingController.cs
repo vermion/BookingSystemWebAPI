@@ -28,6 +28,5 @@ namespace BookingSystemWebAPI.Controllers
             return Ok();
         }
 
-
     }
 }

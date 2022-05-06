@@ -14,6 +14,15 @@ namespace BookingSystemWebAPI.Data
 
         public void Seed()
         {
+            modelBuilder.Entity<User>().HasData(
+                new
+                {
+                    Id = 1,
+                    UserName = "tereng",
+                    PasswordHash = new byte[2],
+                    PasswordSalt = new byte[3]
+                });
+
             modelBuilder.Entity<Facility>().HasData(
                 new
                 {

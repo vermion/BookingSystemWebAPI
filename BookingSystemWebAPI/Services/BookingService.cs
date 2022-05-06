@@ -1,6 +1,10 @@
 ﻿using BookingSystemWebAPI.Data;
 using BookingSystemWebAPI.Models.DTOS;
 using BookingSystemWebAPI.Models.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace BookingSystemWebAPI.Services
 {
